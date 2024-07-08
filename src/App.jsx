@@ -4,17 +4,16 @@ import { Footer } from './components/Footer'
 import { Hero } from './components/Hero'
 import { Navbar } from './components/Navbar'
 import { Stats } from './components/Stats'
-import { UrlInp } from './components/UrlInp'
 function App() {
 
   return (
-    <>
-      <Navbar/>
+    <div className="min-w-full max-w-full ">
+       <Navbar/>
       <Hero></Hero>
       <Stats/>
       <Boost/>
       <Footer/>
-    </>
+      </div>
   )
 }
 
