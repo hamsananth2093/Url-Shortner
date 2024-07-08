@@ -7,12 +7,12 @@ import { Stats } from './components/Stats'
 function App() {
 
   return (
-    <div className="min-w-full max-w-full ">
+    <div className="max-w-full ">
        <Navbar/>
-      <Hero></Hero>
-      <Stats/>
-      <Boost/>
-      <Footer/>
+       <Hero/>
+       <Stats/>
+       
+     
       </div>
   )
 }
