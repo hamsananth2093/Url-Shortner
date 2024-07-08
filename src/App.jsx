@@ -11,7 +11,8 @@ function App() {
        <Navbar/>
        <Hero/>
        <Stats/>
-       
+       <Boost/>
+       <Footer/>
      
       </div>
   )
