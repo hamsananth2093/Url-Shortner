@@ -12,7 +12,7 @@ function App() {
        <Hero/>
        <Stats/>
        <Boost/>
-       <Footer/>
+       
      
       </div>
   )
