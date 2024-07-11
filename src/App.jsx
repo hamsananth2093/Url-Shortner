@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="max-w-full ">
-       {/* <Navbar/> */}
+       <Navbar/>
        <Hero/>
         <Stats/> 
        <Boost/>
